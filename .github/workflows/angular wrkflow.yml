@@ -23,7 +23,6 @@ jobs:
       - run: npm cache clean --force
       - run: npm install
       - run: npm install -g @angular/cli > /dev/null
-      - run: ng build
 
       - name: copy file via ssh key
         uses: appleboy/scp-action@master

@@ -3,14 +3,14 @@
     "version": "1.0.0",
     "scripts": {
         "ng": "ng",
-        "start": "react-scripts start",
-        "build": "react-scripts build",
+        "start": "ng serve",
+        "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
         "ci:clean": "rimraf ./dist",
         "ci:test": "ng test --watch=false --browsers=ChromeHeadlessCustom --code-coverage",
-        "ci:build": "react-scripts build --prod"
+        "ci:build": "ng build --prod"
     },
     "private": true,
     "dependencies": {
