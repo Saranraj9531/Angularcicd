@@ -3,14 +3,14 @@
     "version": "1.0.0",
     "scripts": {
         "ng": "ng",
-        "start": "react-scripts --openssl-legacy-provider start",
-        "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
         "ci:clean": "rimraf ./dist",
         "ci:test": "ng test --watch=false --browsers=ChromeHeadlessCustom --code-coverage",
-        "ci:build": "ng build --prod"
+        "ci:build": "react-scripts build --prod"
     },
     "private": true,
     "dependencies": {
