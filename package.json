@@ -4,7 +4,7 @@
     "scripts": {
         "ng": "ng",
         "start": "react-scripts --openssl-legacy-provider start",
-        "build": "react-scripts --openssl-legacy-provider build",
+        "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
