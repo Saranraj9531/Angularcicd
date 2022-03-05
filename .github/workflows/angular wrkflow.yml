@@ -27,7 +27,7 @@ jobs:
       - name: copy file via ssh key
         uses: appleboy/scp-action@master
         env:
-          HOST:  3.93.232.210
+          HOST:  44.201.148.43
           USERNAME: ubuntu
           PORT:  22
           KEY: ${{ secrets.SSH_PRIVATE_KEY }}
